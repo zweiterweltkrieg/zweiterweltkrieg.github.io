@@ -1,0 +1,133 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #fff;
+}
+
+#header
+{
+    background-image: url('fotos/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    font-size: 58px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 565px;
+    background-position: center center;
+    color: white;
+    overflow: hidden;
+    border-bottom: 7px solid rgb(165, 165, 18);
+    font-family: 'Roboto Slab', serif;
+}
+
+#header:hover{
+    cursor: default;
+}
+
+.navbut{
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+button.navbar-toggler:focus { outline:none; }
+
+.navbar{
+    border-bottom: 7px solid rgb(165, 165, 18);
+    background-color: #333;
+    top:0;
+    left:0;
+    position: sticky;
+    z-index: 100;
+    font-family: 'Roboto Slab', serif;
+}
+
+#krieg{
+    padding:0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 130px;
+    color: #eee;
+    text-transform: uppercase;
+    box-shadow: 0px -15px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+#content{
+    font-size: 40px;
+    padding-top:20px;
+}
+
+#contente{
+    font-size: 40px;
+    padding-top:20px;
+    margin-top: 50px;
+}
+
+.post{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#footer{
+    background-color: #ddd;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #555;
+}
+
+#footer:hover{
+    cursor: default;
+}
+
+.inhaltsv{
+    height: 165px;
+    font-weight: 700px;
+    background-color: #eee;
+    border-bottom: 7px solid rgb(165, 165, 18);
+    color: #555;
+}
+
+#inhalt{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+#inhalt li{
+    height:50px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+#inhalt li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#titel{
+    background-color: #eee;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bild{
+    float:right;
+    margin: 10px;
+    border: 2px solid #333;
+    padding:2px;
+}
+
+.bildl{
+    float:left;
+    margin: 10px;
+    border: 2px solid #333;
+    padding:1px;
+}
