@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>World War II</title>
@@ -9,8 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:300,400,700|Open+Sans+Condensed:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
     <link href="events.html"> <link href="home.html"> <link href="personen.html"><link href="panzer.html"><link href="flugzeuge.html"><link href="schiffe.html">    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+</head>
 
-</html>
 
 <body>
 
@@ -45,13 +49,100 @@
     
     <div id="header"><p p id="krieg">Flugzeuge</p></div>
 
-    <div id="content" class="col-md-10 offset-md-1">Das wichtigste in Kürze
+    <div class="inhaltsv col-md-4 offset-md-4">
+            <ul id="inhalt">
+                <li id="link1">Spitfire MK XII (GB)</li>
+                <li id="link2">FW 190 D-9 (DE)</li>
+                <li id="link3">P 51G Mustang (USA)</li>
+            </ul>
+    </div>
 
-        <div class="post col-md-10 offset-md-1"></div>
+    <div id="content" class="col-md-10 offset-md-1">
+
+        <p class="titel" id="klik1">Spitfire MK XII (Grossbritannien)</p>
+
+        <div class="post">
+                Technische Daten <br>
+                Besatzung: 1 Person<br>
+                Länge: 9.96m<br>
+                Flügelbreite: 11.23m<br>
+                Höhe: 3.05m<br>
+                Max. Gewicht: 3,810kg<br>
+                Kraftwerk: 1 × Rolls-Royce Griffon 65 supercharged V12<br>
+                Propeller: 5-flügelig Jablo-Rotol<br>
+                <img class="bild col-md-6 col-12" src="fotos/spitfire.jpg" alt="">
+                Leistung<br>
+                Max. Geschwindigkeit: 718km/h auf 9’000m höhe<br>
+                Reichweite: 741km<br>
+                Zeit für Aufsteigen: 7min zu 6705m mit max. Gewicht<br><br>
+                
+                Rüstung<br>
+                Kanonen: 2 × 20 mm (0.787-in) Hispano Mk II cannon <br>
+                                4 × 0.303 in (7.7 mm) Browning machine guns<br>
+                Bomben: Keine<br>
+                Raketen: Keine<br><br>
+                Ende 1944 wurde eine Reihe von High-Back-Mk-XIVEs mit voller Spannweite von der Forward Repair Unit zu einer einzigen Kamera umgebaut, die nach Backbord oder Steuerbord gerichtet ist. eine Konvertierung, die mit der auf der FRU-konvertierten FR Mk IXC identisch ist. Um dies zu erreichen, wurde auf Steuerbordseite eine neue Luke, ähnlich der Funkluke auf der Backbordseite, installiert, und beide Luken wurden mit Kamera-Ports in stromlinienförmigen Blistern ausgestattet. Diese vor Ort umgerüsteten Flugzeuge wurden 430 RCAF-Staffeln zugewiesen.<br><br>
+                Insgesamt wurden 957 Mk XIV gebaut, von denen über 430 FR Mk XIV waren. Nach dem Krieg wurden 232 Mk XIV aus zweiter Hand an eine Reihe ausländischer Luftstreitkräfte exportiert.
+                
+        </div>
+
+
+        <p class="titel" id="klik2">FW 190 D-9 (Deutschland)</p>
+
+        <div class="post">
+                Technische Daten <br>
+                Besatzung: 1 Person <br>
+                Länge: 10.20m<br>
+                Flügelbreite: 10.50m<br>
+                Höhe: 3.35m<br>
+                Max. Gewicht: 4,840kg<br>
+                Kraftwerk: 1 × Junkers Jumo 213A 12-cylinder inverted-Vee piston engine<br>
+                Propeller: 3-Flügelig<br>
+                <img class="bild col-md-6 col-12" src="fotos/fw190.jpg" alt="">
+                Leistung<br>
+                Max. Geschwindigkeit: 710km/h auf 11’000m höhe<br>
+                Reichweite: 835km<br>
+                Zeit für Aufsteigen: 7min zu 6705m mit max. Gewicht<br><br>
+                
+                Rüstung<br>
+                Kanonen: 2 × 13 mm (.51 in) MG 131 machine guns<br>
+                                2 × 20 mm MG 151 cannons<br>
+                Bomben: 1 × 500 kg SC 500<br>
+                Raketen: Keine<br><br>
+                Die Focke-Wulf Fw 190 Würger ist ein deutsches einsitziges und einmotoriges Kampfflugzeug, das Ende der 1930er Jahre von Kurt Tank entworfen wurde und im Zweiten Weltkrieg weit verbreitet war. Im November / Dezember 1942 feierte die Fw 190 an der Ostfront ihr Luftkampfdebüt und wurde ab Oktober 1943 erfolgreich in Jagdflügeln und Spezialeinheiten zum Schlachtgeschwader eingesetzt. Die Fw 190 war bei ihren Piloten beliebt. Einige der erfolgreichsten Kämpfer der Luftwaffe forderten viele ihrer Tötungen, darunter Otto Kittel, Walter Nowotny und Erich Rudorffer. Die Fw 190 bot eine grössere Feuerkraft als andere Flugzeuge seiner Klasse und in geringer bis mittlerer Höhe eine überlegene Manövrierfähigkeit. Es wurde als eines der besten Kampfflugzeuge des Zweiten Weltkriegs angesehen.
+                </div>
+
+
+        <p class="titel" id="klik3">P 51G Mustang (USA)</p>
+
+        <div class="post">
+                Technische Daten <br>
+                Besatzung: 1 Person<br>
+                Länge: 9.83m<br>
+                Flügelbreite: 11.28m<br>
+                Höhe: 4.08m<br>
+                Max. Gewicht: 5,490kg<br>
+                Kraftwerk: 1 × Packard V-1650-7 wasser-gekühlt V-12<br>
+                Propeller: 4-Flügelig<br>
+                <img class="bild col-md-6 col-12" src="fotos/mustang.jpg" alt="">
+                Leistung<br>
+                Max. Geschwindigkeit: 708km/h auf 7’600m höhe<br>
+                Reichweite: 2,656km<br>
+                Zeit für Aufsteigen: 7min zu 6705m mit max. Gewicht<br><br>
+                
+                Rüstung<br>
+                Kanonen: 6 × 0.50 caliber (12.7mm) AN/M2 Browning machine guns<br>
+                Bomben: 1 × 450 kg<br>
+                Raketen: 6 oder 10 × 5.0 in (127 mm) T64 H.V.A.R<br><br>
+                Die North American P-51 Mustang ist ein einmotoriges Jagdflugzeug des US-amerikanischen Herstellers North American Aviation. Der einsitzige Ganzmetall-Tiefdecker wurde im Zweiten Weltkrieg vor allem als Langstrecken-Begleitjäger in den Bomberverbänden der United States Army Air Forces eingesetzt. Der Buchstabe „P“ in der Bezeichnung steht für Jagdflugzeug (englisch pursuit). Das 1940 entwickelte Flugzeug besass anfangs keine überragenden Flugleistungen, was sich mit dem Einbau des britischen Flugmotors Rolls-Royce Merlin, der als Lizenzbau Packard Merlin V-1650 in den USA hergestellt wurde, und weiteren Verbesserungen grundlegend änderte. Infolge der ausgezeichneten Flugleistungen und der sehr hohen Reichweite gilt die Mustang als eines der besten Jagdflugzeuge des Zweiten Weltkrieges.
+                </div>
 
     </div>
 
-    <div id="footer" class="col-12 ">Quellen</div>
+    <div id="footer" class="col-12">          
+        <button id="click" onclick="show()">Quellen anzeigen</button>
+        <div id="quelle"> > Spitfire MK XII foto by Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1183115">Link</a> <br> > en.wikipedia.org/wiki/ Supermarine_Spitfire_ (Griffon-powered_variants) <br> > en.wikipedia.org/wiki/Focke-Wulf_Fw_190 <br> > Foto FW 190 by RAF - <a href="//commons.wikimedia.org/wiki/File:IWMLondonThumbnail.jpg" class="image"></a>This is photograph <a rel="nofollow" class="external text" href="https://www.iwm.org.uk/collections/item/object/205093502">MH4190</a> from the collections of the <a rel="nofollow" class="external text" href="https://www.iwm.org.uk/">Imperial War Museums</a>.<a href="//commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg" class="image"></a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=17418827">Link</a> <br> > Foto Mustang by By U.S. Air Force (<a rel="nofollow" class="external text" href="https://media.defense.gov/2004/Mar/12/2000593917/-1/-1/0/021002-O-9999G-006.JPG">image link</a>), Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1456336">Link</a></div>
+    </div>
 
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -59,3 +150,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+</html>

@@ -70,6 +70,12 @@ button.navbar-toggler:focus { outline:none; }
     padding-bottom: 20px;
 }
 
+#quelle{
+    font-size: 25px;
+    padding-bottom: 20px;
+    display: none;
+}
+
 #footer{
     background-color: #ddd;
     padding: 20px;
@@ -101,7 +107,6 @@ button.navbar-toggler:focus { outline:none; }
 
 #inhalt li{
     height:50px;
-    display: inline-block;
     font-size: 30px;
     font-weight: 700;
     transition: all 0.3s ease;
@@ -112,7 +117,7 @@ button.navbar-toggler:focus { outline:none; }
     cursor: pointer;
 }
 
-#titel{
+.titel{
     background-color: #eee;
     padding-left: 10px;
     padding-right: 10px;
@@ -121,7 +126,6 @@ button.navbar-toggler:focus { outline:none; }
 .bild{
     float:right;
     margin: 10px;
-    border: 2px solid #333;
     padding:2px;
 }
 
@@ -130,4 +134,19 @@ button.navbar-toggler:focus { outline:none; }
     margin: 10px;
     border: 2px solid #333;
     padding:1px;
+}
+
+#click{
+    background-color: none;
+    border: 3px solid #333;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#titel2{
+    font-size:28px;
+    color:grey;
+    font-style: italic;
 }

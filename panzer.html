@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>World War II</title>
@@ -9,8 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:300,400,700|Open+Sans+Condensed:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
     <link href="events.html"> <link href="home.html"> <link href="personen.html"><link href="panzer.html"><link href="flugzeuge.html"><link href="schiffe.html">    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
 
-</html>
+</head>
+
 
 <body>
 
@@ -45,13 +50,111 @@
     
     <div id="header"><p p id="krieg">Panzer</p></div>
 
-    <div id="content" class="col-md-10 offset-md-1">Das wichtigste in Kürze
-
-        <div class="post col-md-10 offset-md-1"></div>
-
+    <div class="inhaltsv col-md-4 offset-md-4">
+            <ul id="inhalt">
+                <li id="link1">M4A1 Sherman (USA)</li>
+                <li id="link2">T-34 (UdSSR)</li>
+                <li id="link3">Pzkpfw. VI Tiger I (DE)</li>
+            </ul>
     </div>
 
-    <div id="footer" class="col-12 ">Quellen</div>
+    <div id="content" class="col-md-10 offset-md-1">
+
+            <p class="titel" id="klik1">M4A1 Sherman (USA)</p>
+
+            <div class="post">Allgemeine Eigenschaften: <br>
+                Hersteller: USA <br>
+                Einsetzung: 1941 – 1994 <br>
+                Klassifikation: Mittlerer Panzer <br>
+                Masse: 30,3 Tonnen <br>
+                Besatzung: 5 Personen<br> <br>
+                <img class="bild col-md-6 col-12" src="fotos/m4a1.jpg" alt="">
+                Bewaffnung<br>
+                Hauptbewaffnung: 75mm-Kannone L/40<br>
+                Sekundärbewaffnung: 2x MG 7,62mm Browning M1919<br>
+                Munitionsvorrat: L/40 – 97 Schuss, MG – 5050 Schuss<br><br>
+                Durchschlagsleistung<br>
+                500m: 61mm<br>
+                1000m: 56mm<br>
+                2000m: 46mm<br><br>
+                Panzerung<br><br>
+                Fahrgestell<br>
+                Front: 50,8mm<br>
+                Seite: 38,1mm<br>
+                Heck: 38,1mm<br><br>
+                Turm<br>
+                Front: 76,2mm<br>
+                Seite: 50,8mm<br>
+                Heck: 50,8mm<br><br>
+                M4 Sherman war ein mittlerer US-Panzer, der im zweiten Weltkrieg und Koreakrieg zum Einsatz gekommen ist. Benannt war der mit 50'000 Exemplaren gebaute Panzer nach General William T. Sherman. Durch die niedrigen Herstellungskosten war seine vertikalstabilisierte Kanone eine seiner grössten Vorteile. Die leichte Entzündbarkeit der Munition, nach einem Schuss war eine bekannte Schwäche dieses Panzers, die zur Entzündung des Motors führte.</div>
+
+                <p class="titel" id="klik2">T-34 (UdSSR)</p>
+
+                <div class="post">
+                Allgemeine Eigenschaften <br>
+                Hersteller: USSR <br>
+                Einsetzung: 1940 - 1958<br>
+                Klassifikation: Mittlerer Panzer<br>
+                Masse: 30,9 Tonnen<br>
+                Besatzung: 4 Personen<br><br>
+                <img class="bild col-md-6 col-12" src="fotos/t-34.jpg" alt="">
+                Bewaffnung<br>
+                Hauptbewaffnung: 76,2mm L/41,5-Kanone F-34<br>
+                Sekundärbewaffnung: 2x 7,62mm MGs Degtjarjow DT<br>
+                Munitionsvorrat: L/41,5 – 100 Schuss, MG – 2275 Schuss<br><br>
+                Durchschlagsleistung<br>
+                500m: 76mm<br>
+                1000m: 63mm<br>
+                2000m: n.a.<br><br>
+                Panzerung<br><br>
+                Fahrgestell<br>
+                Front: 45mm<br>
+                Seite: 45mm<br>
+                Heck: 40mm<br><br>
+                Turm<br>
+                Front: 45mm<br>
+                Seite: 45mm<br>
+                Heck: 40mm<br><br>
+                T-34 war ein mittlerer Panzer, der 1940 – 1958 von der USSR hergestellt und hauptsächlich im Deutsch-Sowjetischen Krieg von der roten Armee eingesetzt. Dank seiner einfachen Bauweise ermöglichte man die Massenproduktion und die Herstellung von über 50'000 Exemplaren. Deswegen gilt der T-34 als bekanntester Panzer des Krieges. Von Nachteil waren einige erhebliche Defizite der Konstruktion, wie Beispielsweise das Fehlen von Funkgeräten.
+                </div>
+
+                <p class="titel" id="klik3">Pzkpfw. VI Tiger I</p>
+
+                <div class="post">
+                Allgemeine Eigenschaften <br>
+                Hersteller: Henschell (Wehrmacht)<br>
+                Einsetzung: Spätsommer 1942<br>
+                Klassifikation: Schwerer Panzer<br>
+                Masse: 57 Tonnen<br>
+                Besatzung: 5 Personen<br><br>
+                <img class="bild col-md-6 col-12" src="fotos/tiger.jpg" alt="">
+                Bewaffnung<br>
+                Hauptbewaffnung: 8,8cm Kwk 36<br>
+                Sekundärbewaffnung: 2 x MG 34<br>
+                Munitionsvorrat: KwK – 92 Schuss, MG - 5850 Schuss (39 Gurtsäcke je 150 Patronen)<br><br>
+                        
+                Durchschlagsleistung<br>
+                500m: 110mm<br>
+                1000m: 100mm<br>
+                2000m: 84mm<br><br>
+                Panzerung<br><br>
+                Fahrgestell<br>
+                Front: 100mm<br>
+                Seite: 80mm<br>
+                Heck: 80mm<br><br>
+                Turm<br>
+                Front: 100mm<br>
+                Seite: 80mm<br>
+                Heck: 80mm<br>
+                Decke: 25mm<br><br>
+                Der Tiger war ein schwerer deutscher Panzer, der von Henschel im Jahre 1942 bis 1944 hergestellt wurde. Aufgrund seiner starken Hauptwaffe und des hohen Panzerschutzes war der Tiger I einer der kampfstärksten Panzer während dem zweiten Weltkrieg. Da nur 1350 Exemplare gefertigt wurden, hatte dieser Panzer nicht grosse strategische Bedeutung im Krieg, trotzdem ist er einer der bekanntesten Panzer in der Geschichte.
+                </div>
+    </div>
+
+    <div id="footer" class="col-12">           
+        <button id="click" onclick="show()">Quellen anzeigen</button>
+        <div id="quelle"> > en.wikipedia.org/wiki/M4_Sherman <br> > M4A1 Foto By <a rel="nofollow" class="external text" href="https://www.flickr.com/people/38605191@N05">Joost J. Bakker</a> <br>> T-34 Foto by <a href="//commons.wikimedia.org/wiki/User:Radomil" title="User:Radomil">Radomil</a> <br> > en.wikipedia.org/wiki/T-34 <br> > Tiger I foto by Bundesarchiv <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en" title="Creative Commons Attribution-Share Alike 3.0 de">CC BY-SA 3.0 de</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26280895">Link</a> <br> > en.wikipedia.org/wiki/Tiger_I</div>
+    </div>
 
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -59,3 +162,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+</html>

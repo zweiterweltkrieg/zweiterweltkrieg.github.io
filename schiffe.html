@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>World War II</title>
@@ -9,8 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:300,400,700|Open+Sans+Condensed:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
     <link href="events.html"> <link href="home.html"> <link href="personen.html"><link href="panzer.html"><link href="flugzeuge.html"><link href="schiffe.html">    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+</head>
 
-</html>
 
 <body>
 
@@ -45,13 +49,96 @@
     
     <div id="header"><p p id="krieg">Schiffe</p></div>
 
-    <div id="content" class="col-md-10 offset-md-1">Das wichtigste in Kürze
+    <div class="inhaltsv col-md-4 offset-md-4">
+            <ul id="inhalt">
+                <li id="link1">Enterprise CV-6 (USA)</li>
+                <li id="link2">HMS Bulldog H91 (GB)</li>
+                <li id="link3">Tirpitz (DE)</li>
+            </ul>
+    </div>
 
-        <div class="post col-md-10 offset-md-1"></div>
+    <div id="content" class="col-md-10 offset-md-1">
+
+        <p class="titel" id="klik1">Enterprise CV-6 (USA)</p>
+
+        <div class="post">
+                Technische Daten <br>
+                Verdrängung: 25,500ts (vollgeladen)<br>
+                Länge: 247m<br>
+                Breite: 33m<br>
+                Tiefgang: 6,7m Standard<br>
+                Besatzung: 2919 Personen im Pazifikkrieg<br>
+                <img class="bild col-md-6 col-12" src="fotos/cv6.jpg" alt="">
+                
+                Antrieb: 4 Parsons-Dampfturbinen 9 Babcock & Wilcox-Kessel 120.000 PS auf 4 Antriebswellen<br>
+                Geschwindigkeit: 33,65kn<br><br>
+                
+                Bewaffnung <br>
+                8 × 5"/38-(127-mm)-Mehrzweckkanonen<br>
+                4 × 1.1"/75-(28-mm)-Vierlings-Flak<br>
+                4 bis 16 × 40-mm-Bofors-Geschütze<br>
+                32 bis 50 × 20-mm-Oerlikon-Kanonen<br>
+                24 × Maschinengewehre Browning M2 .50 cal (12,7 mm)<br>
+                Flugzeuge: 96 Stück (max. 80–90 an Bord)<br><br>
+                Die USS Enterprise CV-6 war ein Flottenflugzeugträger der United States Navy. Als einziges der drei Schiffe ihrer Klasse erlebte die Enterprise das Ende des Zweiten Weltkriegs, wurde dann aber 1947 ausser Dienst gestellt und schliesslich von 1958 bis 1960 verschrottet. Sie nahm an nahezu allen wichtigen Seeschlachten und Operationen auf dem pazifischen Kriegsschauplatz teil und war zeitweilig der einzige einsatzbereite Flugzeugträger der US-Marine im gesamten Pazifikraum. Bis heute ist sie das höchstdekorierte Schiff in der Geschichte der US Navy.
+                </div>
+
+
+        <p class="titel" id="klik2">HMS Bulldog H91 (Grossbritannien)</p>
+
+        <div class="post">
+                Technische Daten <br>
+                Verdrängung: 1.360ts Standard<br>
+                Länge: 98,4 m<br>
+                Breite: 9,8 m<br>
+                Tiefgang: max. 3,7 m<br>
+                Besatzung: 134–186 Personen<br>
+                <img class="bild col-md-6 col-12" src="fotos/bulldog.jpg" alt="">
+                
+                Antrieb: 3 Admirality-3-Trommel-Dampfkessel 2 Parsons-Getriebeturbinen 35.500 PS<br>
+                Geschwindigkeit: 35,25kn<br><br>
+                
+                Bewaffnung<br>
+                4 x 120-mm-Geschütze L/45 Mk.IX<br>
+                2 x 40-mm-pompom-Flak<br>
+                2 × 4 Torpedorohre 533 mm<br>
+                20–35 Wasserbomben 2 Werfer, 1 Abwurfschiene<br>
+                Flugzeuge: Keine<br><br>
+                HMS Bulldog (H91) war ein Zerstörer der B-Klasse, der im April 1931 in den Dienst der britischen Royal Navy kam. Im Zweiten Weltkrieg wurde der Zerstörer mit den Battle Honours „Atlantic 1941–45“ und „Artic 1942–44“ ausgezeichnet. Am 9. Mai 1941 gelang es einem Enterkommando des Zerstörers, vom deutschen U-Boot U 110, das der Zerstörer mit anderen Einheiten zum Auftauchen gezwungen hatte, wertvolles Geheimmaterial und insbesondere die erste vollständige Enigma-Chiffriermaschine zu bekommen. Im April 1942 verteidigte die Beagle mit anderen Zerstörern im Nordmeer den Geleitzug QP 11 erfolgreich gegen Angriffe verschiedener deutscher Zerstörer.
+                </div>
+
+
+        <p class="titel" id="klik3">Tirpitz (Deutschland)</p>
+
+        <div class="post">
+                Technische Daten <br>
+                Verdrängung: 41.700tn<br>
+                Länge: 251m<br>
+                Breite: 36m<br>
+                Tiefgang: max 9,9m<br>
+                Besatzung: 2'500 Personen<br>
+                <img class="bild col-md-6 col-12" src="fotos/tirpitz.jpg" alt="">
+                
+                Antrieb: 12 Dampfkessel 3 Satz BBC-Getriebeturbinen 2 Ruder 163.026 PS<br>
+                Geschwindigkeit: 30,8 kn<br><br>
+                
+                Bewaffnung<br>
+                8 × Sk 38 cm L/52<br>
+                12 × Sk 15 cm L/55<br>
+                16 × Flak 10,5 cm L/65<br>
+                16 × Flak 3,7 cm L/83<br>
+                12–58 × Flak 2 cm L/65<br>
+                8 × Torpedorohr 53,3 cm<br>
+                Flugzeuge: Keine<br><br>
+                Die Tirpitz war ein im Zweiten Weltkrieg eingesetztes Schlachtschiff der deutschen Kriegsmarine. Sie gehörte der Bismarck-Klasse an und war nach dem deutschen Marinestaatssekretär und Grossadmiral Alfred von Tirpitz benannt. Bis heute wurde in Europa kein grösseres Schlachtschiff gebaut. Den grössten Teil ihrer Dienstzeit war die Tirpitz nach dem sogenannten Präsenzflotte-Konzept in Norwegen stationiert und bedrohte von dort allein durch ihre Präsenz die alliierten Geleitzüge nach Murmansk. Gegebenenfalls sollte sie helfen, eine alliierte Invasion in diesem Gebiet abzuwehren. Nach mehreren vergeblichen Angriffen auf die Tirpitz wurde sie am 12. November 1944 bei einem Luftangriff der Royal Air Force im Sandnessund, einer Meerenge in Norwegen, zum Kentern gebracht.
+                </div>
 
     </div>
 
-    <div id="footer" class="col-12 ">Quellen</div>
+    <div id="footer" class="col-12">           
+        <button id="click" onclick="show()">Quellen anzeigen</button>
+        <div id="quelle">> en.wikipedia.org/wiki/ USS_Enterprise_(CV-6) <br> > Foto Enterprise CV-6 by U.S. Navy bureau of Ships - Official U.S. Navy photo <a rel="nofollow" class="external text" href="http://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nara-series/19-n/19-N-80000/19-N-89185.html">19-N-89185</a> from the U.S. Navy <a rel="nofollow" class="external text" href="http://www.history.navy.mil">Naval History and Heritage Command</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=5983698">Link</a> <br> en.wikipedia.org/wiki/ HMS_Bulldog_(H91) <br> > Foto HMS Bulldog by By Royal Navy official photographer - <a rel="nofollow" class="external text" href="http://www.iwmcollections.org.uk/">IWMCollections</a> IWM Photo No.: FL 1817, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2476888">Link</a> <br> > en.wikipedia.org/wiki /German_battleship_Tirpitz <br> Foto Tirpitz by Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1219401">Link</a> </div>
+    </div>
 
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -59,3 +146,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+</html>
