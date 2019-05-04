@@ -1,9 +1,17 @@
+var number = 0;
+var x = document.getElementById("quelle");
+
 function show() {
-  var x = document.getElementById("quelle");
-  if (x.style.display === "none") {
+  
+  if (number == 0) {
     x.style.display = "block";
-  } else {
+    number++;
+    document.getElementById("click").innerHTML = "Quellen verbergen";
+  } 
+  else if (number == 1){
     x.style.display = "none";
+    number--;
+    document.getElementById("click").innerHTML = "Quellen anzeigen";
   }
 }
 

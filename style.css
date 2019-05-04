@@ -125,15 +125,16 @@ button.navbar-toggler:focus { outline:none; }
 
 .bild{
     float:right;
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
     padding:2px;
 }
 
 .bildl{
     float:left;
-    margin: 10px;
-    border: 2px solid #333;
     padding:1px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 #click{
